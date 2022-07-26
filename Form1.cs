@@ -17,13 +17,20 @@ namespace semana2_primer_proyecto_escritorio_formulario
             InitializeComponent();
         }
 
-        private void button1_Click(object sender, EventArgs e)
+        private void button2_Click(object sender, EventArgs e)
         {
-            label1.Text = "Fernando José";
-            label2.Text = "Edwin Emerson";
-            label3.Text = "Nilderson Alexis";
-            label4.Text = "Diego Enmanuel";
-            label5.Text = "Henry Anderson";
-            label6.Text = "Christian Alexander";
+            
         }
+
+        private void button2_Click_1(object sender, EventArgs e)
+        {
+            label8.Text = "1-Fernando José";
+            label9.Text = "2-Edwin Emerson";
+            label10.Text = "3-Nilderson Alexis";
+            label11.Text = "4-Diego Enmanuel";
+            label12.Text = "5-Henry Anderson";
+            label13.Text = "6-Christian Alexander";
+            label14.Text = "Integrantes:";
+        }
+    }
 }
