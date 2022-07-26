@@ -16,5 +16,9 @@ namespace semana2_primer_proyecto_escritorio_formulario
         {
             InitializeComponent();
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            label1.Text = "Fernando José";
     }
 }
